@@ -10,7 +10,7 @@ public class EchoController {
 	@GetMapping("/echo/{name}")
     public String echo(@PathVariable String name) {
 	    System.out.println("ARGO CD PIPELINE");
-        return "ARGO CD PIPELINE" + name;
+        return "MY ARGO CD PIPELINE" + name;
     }
 
 }
